@@ -10,8 +10,8 @@
 	echo "$str";
 	echo '<h3>String Functions<h3>';
 	stringFunctions::otherfunctions();
-	//echo '<h3>Array Functions<h3>';
-	//arrayFunctions::otherfunctions();
+	echo '<h3>Array Functions<h3>';
+	arrayFunctions::otherfunctions();
 	}
 	public function __destruct() {
 	$str = "program completed<br>";
