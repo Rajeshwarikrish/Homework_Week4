@@ -84,11 +84,11 @@
         $len=strtoupper($str1);
         stringFunctions::printThis($len);
         stringFunctions::printline();
-//	$str='<h3> Generating sha1 code<h3><br>';
-//	        stringFunctions::printThis($str);
-//		        $len=sha1($str1);
-//			        stringFunctions::printThis($len);
-//				        stringFunctions::printline();
+	$str='<h3> Generating sha1 code<h3><br>';
+        stringFunctions::printThis($str);
+        $len=sha1($str1);
+        stringFunctions::printThis($len);
+        stringFunctions::printline();
 	}
 	}
 class arrayFunctions
