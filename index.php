@@ -103,7 +103,7 @@ print($str);
 static public function otherfunctions(){
 $array = array(1,2,6,3,9,0,5);
 arrayFunctions::printArray($array);
-/*$array1='<h3>Reverse an array<h3><br>';
+$array1='<h3>Reverse an array<h3><br>';
 arrayFunctions::printArray($array1);
 arrayFunctions::printArray(array_reverse($array));
 arrayFunctions::printline();
@@ -115,7 +115,7 @@ arrayFunctions::printline();
 $array1='<h3>Sum of elements in an array<h3><br>';
 arrayFunctions::printArray($array1);
 arrayFunctions::printArray(array_sum($array));
-arrayFunctions::printline();*/
+arrayFunctions::printline();
 $array1='<h3>Return values in an array<h3><br>';
 arrayFunctions::printArray($array1);
 arrayFunctions::printArray(array_values($array));
